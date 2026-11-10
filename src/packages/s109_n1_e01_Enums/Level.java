@@ -18,6 +18,10 @@ public enum Level {
         return color;
     }
 
+    public int getResponseHours() {
+        return responseHours;
+    }
+
     // Mètode amb lògica dins l’enum
     public boolean isUrgentTask() {
         return this.responseHours <= 4;
